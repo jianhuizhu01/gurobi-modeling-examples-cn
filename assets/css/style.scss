@@ -1,0 +1,85 @@
+---
+---
+
+@import 'jekyll-theme-leap-day';
+
+header {
+	background: #1c4679;
+	color: #f4f4f4;
+	width: unset;
+}
+
+header a {
+    color: #f4f4f4;
+}
+
+#banner {
+	background: #dd2113;
+	border: unset;
+
+	.fork {
+		background: #a7b4c9;
+		border: unset;
+	}
+
+	.fork:hover {
+		background:#e0e4eb;
+	}	
+	
+	.downloads {	
+		
+		span {
+			color: #f4f4f4;
+		}
+
+		.button {
+			background: #a7b4c9;
+			border: unset;
+		}
+
+		.button:hover {
+			background:#e0e4eb;
+		}
+	}
+}
+
+body {
+	background:  #e0e4eb;
+	font-family: "Roboto";
+}
+
+ul {
+    list-style-image: unset;
+}
+
+hr {
+	background-image: url("../img/hr.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Noticia Text";
+}
+
+header h1 {
+	font-family: "Noticia Text";
+}
+
+@media print, screen and (max-width: 1060px) {
+	section {
+		padding: 20px 10px;
+	}
+}
+
+details summary {
+    cursor: pointer;
+}
+
+details[open] summary::before {
+    content: "▼";
+    margin-right: 5px;
+}
+
+details summary::before {
+    content: "▶︎";
+    margin-right: 6px;
+}
