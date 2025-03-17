@@ -1,24 +1,23 @@
-# Modeling Session 1 - Widget Distribution Optimization
+# 建模课程 1 - 部件分销优化
 
-## Problem
-Given demand data produced by a hypothetical machine learning model, as well as transportation costs and production capacity, determine the optimal production and shipment of widgets from a set of production facilities to distribution locations that minimizes cost. 
+## 问题
+根据假设机器学习模型产生的需求数据，以及运输成本和生产能力，确定从一组生产设施到分销地点的最佳部件生产和运输方案，以最小化成本。
 
-Along with the modeling example, an exercice is provided. It contains some general questions as well as some modeling questions.
+本建模示例还附带一个练习。它包含一些一般性问题和建模问题。
 
-## Beware Spoilers!
-We also put **completed** versions of the modeling notebook and the exercise in the repo. If you want to work through the notebooks without everything filled in make sure not to open the completed versions.
+## 注意剧透！
+我们在代码库中还提供了建模笔记本和练习的**完整**版本。如果你想在不看答案的情况下完成笔记本，请确保不要打开完整版本。
 
+## 查看笔记本
 
-## View the notebook
+[Google Colab链接 - 建模课程*无答案*版](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/optimization101/Modeling_Session_1/modeling1.ipynb)
 
-[Google Colab Link - Modeling Session *without* answers](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/optimization101/Modeling_Session_1/modeling1.ipynb)
+[Google Colab链接 - 练习*无答案*版](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/optimization101/Modeling_Session_1/Exercise_Set1.ipynb)
 
-[Google Colab Link - Exercise *without* answers](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/optimization101/Modeling_Session_1/Exercise_Set1.ipynb)
+[Google Colab链接 - 建模课程*有答案*版](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/optimization101/Modeling_Session_1/completed_modeling1.ipynb)
 
-[Google Colab Link - Modeling Session *with* answers](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/optimization101/Modeling_Session_1/completed_modeling1.ipynb)
-
-[Google Colab Link - Exercise *with* answers](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/optimization101/Modeling_Session_1/completed_Exercise_Set1.ipynb)
+[Google Colab链接 - 练习*有答案*版](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/optimization101/Modeling_Session_1/completed_Exercise_Set1.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../../)
+有关许可或运行笔记本的详细信息，请参阅[建模示例](../../)中的概述
