@@ -1,29 +1,28 @@
-# Bike Share Rebalancing With Mathematical Optimization
+# 使用数学优化进行共享单车重新平衡
 
-## Problem
-Using historical Citi-bike data in NYC and Jersey area during July 2022, we like to know:
+## 问题
+使用2022年7月纽约和新泽西地区Citi-bike的历史数据，我们想要了解：
 
-- What is the demand for bikes per hour at each station during the first week of August?
-- Knowing the demand, how can we minimize loss of sale?
+- 在8月第一周，每个站点每小时的单车需求量是多少？
+- 在了解需求的情况下，如何最小化销售损失？
 
-We use a mixture of Machine Learning (ML) and Mathematical Optimization (MO) to solve this problem.
+我们使用机器学习（ML）和数学优化（MO）的组合来解决这个问题。
 
-## Repo Guide
-- The ML model to predict the number of in-flow and out-flow of bikes per hour at each station
-  for the first week of August, can be found in the [predict_bike_flow](predict_bike_flow.ipynb) notebook.
-- The MO model to decide how many bikes should be added to or removed from each station
-  during each hour (with the goal of minimizing total loss of sale) is in the [bike_rebalancing](bike_rebalancing.ipynb) notebook. 
-- The data is collected from the Citi-bike data website. They are processed in [predict_bike_flow](predict_bike_flow.ipynb) notebook.
-- The [stations_flow.csv](stations_flow.csv) and [top_stations.csv](top_stations.csv) are the outputs of ML model 
-  that are used as inputs for the MO model. Of course, you can run the [predict_bike_flow](predict_bike_flow.ipynb) notebook and 
-  or even modify it as you please to get new results. Just ensure the format of the output is similar
-  in case you like to use the MO model of [bike_rebalancing](bike_rebalancing.ipynb) notebook.
+## 仓库指南
+- 预测8月第一周每个站点每小时单车流入和流出数量的机器学习模型，
+  可以在[predict_bike_flow](predict_bike_flow.ipynb)笔记本中找到。
+- 决定每个站点每小时应增加或减少多少单车的数学优化模型
+  （目标是最小化总销售损失）在[bike_rebalancing](bike_rebalancing.ipynb)笔记本中。
+- 数据来自Citi-bike数据网站。这些数据在[predict_bike_flow](predict_bike_flow.ipynb)笔记本中进行处理。
+- [stations_flow.csv](stations_flow.csv)和[top_stations.csv](top_stations.csv)是机器学习模型的输出，
+  它们作为数学优化模型的输入。当然，您可以运行[predict_bike_flow](predict_bike_flow.ipynb)笔记本，
+  甚至可以根据需要修改它以获得新的结果。只需确保输出格式类似，
+  以便您可以使用[bike_rebalancing](bike_rebalancing.ipynb)笔记本中的数学优化模型。
 
+## 查看笔记本
 
-## View the notebook
-
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/optimization101/bike_share/bike_rebalancing_complete.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/optimization101/bike_share/bike_rebalancing_complete.ipynb)
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../../)<br>
-This notebook can be ran using the "online course" version of Gurobi.
+有关许可证或运行笔记本的详细信息，请参阅[建模示例](../../)概述<br>
+此笔记本可以使用Gurobi的"在线课程"版本运行。
