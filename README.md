@@ -26,7 +26,7 @@
 - 优化入门101（Optimization 101）:
   本教程基于[面向数据科学家的优化入门101（Optimization 101 for Data Scientists）](https://www.gurobi.com/events/optimization-101-for-data-scientists/)网络研讨会，由两个包含练习和问题的建模环节以及一个用例讨论组成。
 - 以下示例以非常详细的方式逐步讨论输入数据和优化模型。
-  - 航班中断后的航空公司规划（Airline Planning After Flight Disruption）
+  - [航班中断后的航空公司规划（Airline Planning After Flight Disruption）](./Introductory%20Examples/aviation_planning)
   - 音乐推荐（Music Recommendation）
   - 文本差异度（Text Dissimilarity）
   - 发电（Power Generation）
