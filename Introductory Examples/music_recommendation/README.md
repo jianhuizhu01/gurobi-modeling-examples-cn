@@ -1,24 +1,21 @@
-# Music Recommendation System
+# 音乐推荐系统
 
 <img src="spotify_image_howtogeek.jpeg" alt="Markdown Monster icon"/>
 
-Music streaming services like Spotify periodically provide their millions of users with curated music recommendations to keep them wanting to come back for more. It is important that these recommendations truly resonate with their users, while also introducing them to novelty that keeps their curiosity alive.
+像 Spotify 这样的音乐流媒体服务会定期为其数百万用户提供精心策划的音乐推荐，以保持用户持续使用的兴趣。这些推荐必须真正引起用户共鸣，同时还要引入新颖的内容来保持用户的好奇心。
 
+本示例使用数学优化创建音乐推荐。解决方案包含一组用户喜欢且多样化的艺术家，专门针对音乐流媒体平台的用户。通过协同过滤（使用矩阵分解）学习用户偏好，并使用整数规划优化艺术家选择。该示例展示了预测模型如何与指导性模型相结合，创建针对用户喜好进行微调的推荐。
 
-This example creates a music recommendation using mathematical optimization. The solution comprises of a set of artists that likable and diverse, and caters to a user of a music streaming platform. Users' preferences are learned using collaborative filtering  (via matrix factorization) and the artist selection is optimized using an Integer Program. This example illustrates how a prediction model combines with a prescriptive model to create a recommendation that is fine-tuned to a user's likes.
+这是一个入门级的建模教程，我们假设您了解 Python 并具有使用定量方法的学科背景。
 
-This modeling tutorial is at the introductory level, where we assume that you know Python and that you have a background on a discipline that uses quantitative methods.
+您可能会发现参考 [Gurobi Python API](https://www.gurobi.com/documentation/current/refman/py_python_api_overview.html) 的文档会有所帮助。
+我们的数据科学和数学优化网络研讨会中详细解释了这个笔记本。您可以点击[这里](https://www.youtube.com/watch?v=AJRP9pPBx6s)观看这些视频。
 
-You may find it helpful to refer to the documentation of the [Gurobi Python API](https://www.gurobi.com/documentation/current/refman/py_python_api_overview.html).
-This notebook is explained in detail in our webinar on data science and mathematical optimization. You can watch these videos by clicking [here](https://www.youtube.com/watch?v=AJRP9pPBx6s).
+## 查看笔记本
 
-
-## View the notebook
-
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/music_recommendation/music_recommendation.ipynb)
-
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/music_recommendation/music_recommendation.ipynb)
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可或运行笔记本的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
