@@ -1,19 +1,19 @@
-# Airline Planning After Flight Disruption
+# 航班中断后的航空计划调整
 
-Weather events are a major threat to the airline industry. The unpredictable nature of snowstorms, heavy rains, and icy runways make it difficult for aviation planners to make accurate schedules.
+天气事件是航空业面临的主要威胁。暴风雪、暴雨和结冰跑道的不可预测性使得航空计划人员难以制定准确的时刻表。
 
-This notebook walks through the optimization problem of deciding which flights to operate and which flights to cancel after a weather disruption. We do this by constructing a mathematical optimization model that reduces the revenue lost from the cancelled flights. In this example, we are using real data in France compiled by [Amadeus](https://amadeus.com/en).
+本教程将介绍如何在遇到天气中断后，决定哪些航班继续运营、哪些航班取消的优化问题。我们通过构建一个数学优化模型来减少因航班取消带来的收入损失。在这个例子中，我们使用了由[Amadeus](https://amadeus.com/en)收集的法国真实数据。
 
-This modeling tutorial is at the introductory level, where we assume that you know Python and that you have a background on a discipline that uses quantitative methods.
+这是一个入门级的建模教程，我们假设您了解Python，并且具有使用定量方法的学科背景。
 
-You may find it helpful to refer to the documentation of the [Gurobi Python API](https://www.gurobi.com/documentation/current/refman/py_python_api_overview.html).
+您可能会发现参考[Gurobi Python API](https://www.gurobi.com/documentation/current/refman/py_python_api_overview.html)的文档很有帮助。
 
-## View the notebook
+## 查看教程
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/aviation_planning/airlineplanning.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/aviation_planning/airlineplanning.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可或运行教程的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
