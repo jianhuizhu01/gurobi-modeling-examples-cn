@@ -28,7 +28,7 @@
 - 以下示例以非常详细的方式逐步讨论输入数据和优化模型。
   - [航班中断后的航空公司规划（Airline Planning After Flight Disruption）](./Introductory%20Examples/aviation_planning)
   - [音乐推荐（Music Recommendation）](./Introductory%20Examples/music_recommendation)
-  - 文本差异度（Text Dissimilarity）
+  - [文本差异度（Text Dissimilarity）](./Introductory%20Examples/text_dissimilarity)
   - 发电（Power Generation）
   - 价格优化（Price Optimization）
 
