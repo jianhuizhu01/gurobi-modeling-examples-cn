@@ -1,21 +1,19 @@
-# Optimize a Power Generation Schedule
+# 优化发电调度
 
-Suppose that we are in charge of generating power for the U.S. State of Georgia. Assume that we know the set of all available power plants and the demand for power for each hour of a day. Can we create a schedule to decide how much power each plant should generate, and when to switch the plants “on” and “off”? How can we do so while minimizing the overall costs?
+假设我们负责美国佐治亚州的发电任务。假定我们已知所有可用发电厂的信息以及一天中每个小时的用电需求。我们能否制定一个调度计划来决定每个发电厂应该发多少电，以及何时"开启"和"关闭"这些发电厂？如何在此过程中将总成本降到最低？
 
-In this notebook, we model this decision-making problem using mathematical optimization. In this power generation problem, the objective is to minimize the overall costs. The decision variables model the power generation schedule. The constraints capture basic requirements such as ensuring that the power supply meets the demand, as well as practical limitations such as the minimum and maximum production levels for each power plant. By finding the optimally cost-efficient schedule, this model helps power plant operators get the best output from their facilities while minimizing the overall costs.
+在本教程中，我们使用数学优化方法对这个决策问题进行建模。在这个发电问题中，目标是最小化总成本。决策变量用于建模发电调度。约束条件包括确保供电满足需求等基本要求，以及每个发电厂的最小和最大产能等实际限制。通过找到最优的成本效益调度方案，该模型帮助发电厂运营者在最小化总成本的同时获得最佳的设施输出。
 
-This modeling tutorial is at the introductory level, where we assume that you know Python and that you have a background on a discipline that uses quantitative methods.
+这是一个入门级的建模教程，我们假设你已掌握 Python 并具有使用定量方法的学科背景。
 
-You may find it helpful to refer to the documentation of the [Gurobi Python API](https://www.gurobi.com/documentation/current/refman/py_python_api_overview.html).
+你可能会发现参考 [Gurobi Python API](https://www.gurobi.com/documentation/current/refman/py_python_api_overview.html) 的文档会有所帮助。
 
+## 查看教程
 
-
-## View the notebook
-
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/power_generation/optimize_power_schedule.ipynb)
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/power_generation/optimize_power_schedule.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+关于许可证或运行教程的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
