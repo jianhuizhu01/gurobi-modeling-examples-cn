@@ -30,7 +30,7 @@
   - [音乐推荐（Music Recommendation）](./Introductory%20Examples/music_recommendation)
   - [文本差异度（Text Dissimilarity）](./Introductory%20Examples/text_dissimilarity)
   - [发电（Power Generation）](./Introductory%20Examples/power_generation)
-  - 价格优化（Price Optimization）
+  - [价格优化（Price Optimization）](./Introductory%20Examples/price_optimization)
 
 
 ## 初级示例（Beginner Examples）
