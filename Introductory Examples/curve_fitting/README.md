@@ -1,24 +1,17 @@
-# Curve Fitting
+# 曲线拟合
 
-This Jupyter Notebook describes an example of fitting a function to a set of observations. A quantity y is known to 
-depend on another quantity x. A set of corresponding values have been collected for y and x. We want to identify 
-a function of x that explains the values of y. This problem is formulated as a linear programming problem using 
-the Gurobi Python API and solved with the Gurobi Optimizer.
+本 Jupyter Notebook 介绍了一个将函数拟合到一组观测值的示例。已知一个量 y 依赖于另一个量 x。收集了一组 y 和 x 的对应值。我们想要确定一个 x 的函数来解释 y 的值。这个问题使用 Gurobi Python API 被构建为线性规划问题，并使用 Gurobi 优化器求解。
 
-This model is example 11 from the fifth edition of Model Building in Mathematical Programming, by H. Paul Williams on 
-pages 266 and 319-320.
+这个模型是 H. Paul Williams 所著《数学规划中的模型构建》第五版第 266 页和第 319-320 页中的示例 11。
 
-This modeling example is at the beginner level, where we assume that you know Python and that you have some knowledge 
-about building mathematical optimization models. The reader should also consult the 
-[documentation](https://www.gurobi.com/resources/?category-filter=documentation) 
-of the Gurobi Python API.
+这个建模示例属于初级水平，我们假设您了解 Python 并且对构建数学优化模型有一定了解。读者还应参考 Gurobi Python API 的[文档](https://www.gurobi.com/resources/?category-filter=documentation)。
 
-## View the notebook
+## 查看 notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/curve_fitting/curve_fitting.ipynb)
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/curve_fitting/curve_fitting.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行 notebooks 的详细信息，请参见[建模示例](../)概述
 
 © Gurobi Optimization, LLC
