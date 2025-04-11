@@ -39,9 +39,9 @@
 
 - [三维井字棋游戏（3D Tic-Tac-Toe）](./Introductory%20Examples/3d_tic_tac_toe):
   这个示例将向您展示二进制规划模型如何用于捕捉简单的逻辑约束。
-- 信号塔（Cell Tower）:
+- [信号塔（Cell Tower）](./Introductory%20Examples//cell_tower_coverage):
   在这个例子中，你将学习如何定义和解决一个覆盖类型的问题，即如何配置一个信号塔网络，以向最多的人提供信号覆盖。
-- 曲线拟合（Curve Fitting）:
+- [曲线拟合（Curve Fitting）](./Introductory%20Examples/curve_fitting):
   尝试这个 Jupyter Notebook 建模示例，了解如何将函数拟合到一组观测值。
 - 设施选址（Facility Location）:
   在这个示例中，我们将向您展示如何解决设施选址问题，该问题涉及确定为一组超市供应货物所需的仓库数量和位置。
