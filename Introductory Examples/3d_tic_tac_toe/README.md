@@ -1,22 +1,18 @@
-# 3D Tic-Tac-Toe
+# 三维井字棋
 
-This model solves the problem of arranging  X's and 0's on a three-dimensional Tic-Tac-Toe board so as to minimize the 
-number of completed lines or diagonals. It demonstrates the use of mixed integer programming to capture simple logical 
-constraints.
+该模型解决了在三维井字棋棋盘上排列 X 和 O，以最小化完成线条或对角线数量的问题。它展示了如何使用混合整数规划来捕捉简单的逻辑约束。
 
-This is example 17 from the fifth edition of Model Building in Mathematical Programming, by H. Paul Williams on pages 272 
-and 327-328.
+这是 H. Paul Williams 所著《数学规划中的模型构建》第五版第 272 页和 327-328 页中的示例 17。
 
-This modeling example is at the beginning level. We assume that you have some familiarity with Python and the Gurobi 
-Python API, but you can hopefully pick up any missing concepts from the example.
+这个建模示例属于入门级别。我们假设您对 Python 和 Gurobi Python API 有一定的了解，但您可以从示例中学习到任何缺失的概念。
 
 
-## View the notebook
+## 查看笔记本
 
- [Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/3d_tic_tac_toe/3d_tic_tac_toe.ipynb)
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/3d_tic_tac_toe/3d_tic_tac_toe.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可或运行笔记本的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
