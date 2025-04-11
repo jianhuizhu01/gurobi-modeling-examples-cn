@@ -1,41 +1,30 @@
-# Cell Tower Coverage
+# 基站覆盖问题
 
-## Objective and Prerequisites
+## 目标和前提条件
 
-In this example, we'll solve a simple covering problem: how to build a network of cell towers to provide signal 
-coverage to the largest number of people possible. We'll construct a mathematical model of the business problem, 
-implement this model in the Gurobi Python interface, and compute an optimal solution.
+在这个例子中，我们将解决一个简单的覆盖问题：如何建立一个基站网络以为尽可能多的人提供信号覆盖。我们将构建业务问题的数学模型，在Gurobi Python接口中实现这个模型，并计算最优解。
 
-This modeling example is at the beginner level, where we assume that you know Python and that you have some knowledge 
-about building mathematical optimization models.
+这个建模示例属于初级水平，我们假设您了解Python并且对构建数学优化模型有一定了解。
 
-## Motivation
+## 动机
 
-Over the last ten years, smartphones have revolutionized our lives in ways that go well beyond how we communicate. 
-Besides calling, texting, and emailing, more than two billion people around the world now use these devices to navigate, 
-to book cab rides, to compare product reviews and prices, to follow the news, to watch movies, to listen to music, 
-to play video games,to take photographs, to participate in social media, and for numerous other applications.
+在过去的十年里，智能手机彻底改变了我们的生活方式，其影响远远超出了通信领域。除了打电话、发短信和收发邮件之外，全球超过20亿人现在使用这些设备进行导航、预约出租车、比较产品评价和价格、关注新闻、观看电影、听音乐、玩视频游戏、拍照、参与社交媒体以及众多其他应用。
 
-A cellular network is a network of handheld smartphones in which each phone communicates with the telephone network 
-by radio waves through a local antenna at a cellular base station (cell tower). One important problem is the placement 
-of cell towers to provide signal coverage to the largest number of people.
+蜂窝网络是一个由手持智能手机组成的网络，每部手机通过基站（手机信号塔）的本地天线以无线电波与电话网络进行通信。一个重要问题是如何放置基站，以便为最多数量的人提供信号覆盖。
 
-## Problem Description
+## 问题描述
 
-A telecom company needs to build a set of cell towers to provide signal coverage  for the inhabitants of a given city. 
-A number of potential locations where the towers could be built have been identified. The towers have a fixed range, 
-and -due to budget constraints- only a limited number of them can be built. Given these restrictions, the company wishes 
-to provide coverage to the largest percentage of the population possible
+一家电信公司需要建设一批基站，为给定城市的居民提供信号覆盖。已经确定了一些可以建设基站的潜在位置。基站具有固定的覆盖范围，并且由于预算限制，只能建设有限数量的基站。在这些限制条件下，公司希望为尽可能多的人口提供覆盖。
 
-## Proposed Solution
+## 建议的解决方案
 
-A mixed-integer programming (MIP) formulation for the Cell Tower Coverage Problem..
+基站覆盖问题的混合整数规划（MIP）建模方案。
 
-## View the notebook
+## 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/cell_tower_coverage/cell_tower.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/cell_tower_coverage/cell_tower.ipynb)
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
