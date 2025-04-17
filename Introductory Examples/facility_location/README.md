@@ -1,58 +1,45 @@
-# Facility Location
+# 设施选址
 
-## Objective and Prerequisites
+## 目标和前提条件
 
-In this example, we will solve a facility location problem where we want to build warehouses to supply a certain number 
-of supermarkets. We will construct a mixed-integer programming (MIP) model of this problem, implement this model in the 
-Gurobi Python interface, and compute an optimal solution.
+在本示例中，我们将解决一个设施选址问题，我们要为一定数量的超市建造仓库。我们将构建这个问题的混合整数规划(MIP)模型，
+在Gurobi Python接口中实现这个模型，并计算出最优解。
 
-This modeling example is at the beginner level, where we assume that you know Python and that you have some knowledge 
-about building mathematical optimization models.
+本建模示例属于初级水平，我们假设您了解Python，并且对构建数学优化模型有一定了解。
 
-## Motivation
+## 动机
 
-The study of facility location problems -also known as location analysis- is a branch of operations research and 
-computational geometry concerned with the optimal placement of facilities to minimize transportation costs while 
-considering factors like avoiding placing hazardous materials near housing, and the location of  competitors' 
-facilities.
+设施选址问题的研究（也称为位置分析）是运筹学和计算几何学的一个分支，主要关注设施的最优布置以最小化运输成本，同时
+考虑诸如避免将危险材料放置在住房附近，以及竞争对手设施的位置等因素。
 
-The Fermat-Weber problem, formulated in the 17'th century, was one of the first facility location problems ever proposed. 
-The Fermat-Weber problem can be described as follows: Given three points in a plane, find a fourth point such that the 
-sum of its distances to the three given points is minimal. This problem can be interpreted as a version of the facility 
-location problem, where the assumption is made that the transportation costs per distance are the same for all 
-destinations.
+费马-韦伯问题是17世纪首次提出的设施选址问题之一。费马-韦伯问题可以描述如下：在平面上给定三个点，找到第四个点，使得
+该点到给定三个点的距离之和最小。这个问题可以被解释为设施选址问题的一个版本，其中假设所有目的地的单位距离运输成本
+都相同。
 
-Facility location problems have applications in a wide variety of industries. For supply chain management and logistics, 
-this problem  can be used to find the optimal location for stores, factories, warehouses, etc. Other applications range 
-from public policy (e.g. positioning  police officers in a city), telecommunications (e.g. cell towers in a network), 
-and even particle physics (e.g. separation distance between repulsive charges). Another application of the facility 
-location problem is to determine the locations for natural gas transmission equipment. Finally, facility location 
-problems can be applied to cluster analysis.
+设施选址问题在各种行业都有应用。对于供应链管理和物流，这个问题可以用来找到商店、工厂、仓库等的最优位置。其他应用
+范围从公共政策（如在城市中布置警察），电信（如网络中的手机信号塔），甚至粒子物理学（如排斥电荷之间的分离距离）。
+设施选址问题的另一个应用是确定天然气输送设备的位置。最后，设施选址问题还可以应用于聚类分析。
 
-## Problem Description
+## 问题描述
 
-A large supermarket chain in the UK needs to build warehouses for a set of supermarkets it is opening in Northern 
-England. The locations of the supermarkets have been decided, but the locations of the warehouses have yet to be 
-determined.
+英国一家大型连锁超市需要为其在北英格兰开设的一系列超市建造仓库。超市的位置已经确定，但仓库的位置还有待确定。
 
-Several good candidate locations for the warehouses have been identified, but decisions must be made regarding 
-how many warehouses to open and at which candidate locations to build them.
+已确定了几个适合建设仓库的候选位置，但必须决定开设多少个仓库以及在哪些候选位置建设仓库。
 
-Opening many warehouses would be advantageous as this would reduce the average distance a truck has to drive from the 
-warehouse to the supermarket, and hence reduce the delivery cost. However, opening a warehouse has a fixed cost 
-associated with it.
+开设多个仓库会带来优势，因为这将减少卡车从仓库到超市的平均行驶距离，从而降低配送成本。但是，开设仓库需要相应的固定
+成本。
 
-In this example, our goal is to find the optimal tradeoff between delivery cost and the cost of building new facilities.
+在本示例中，我们的目标是找到配送成本和建设新设施成本之间的最优平衡。
 
-## Proposed Solution
+## 建议的解决方案
 
-A mixed-integer programming (MIP) formulation for the facility location problem.
+设施选址问题的混合整数规划(MIP)方案。
 
-## View the notebook
+## 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/facility_location/facility_location.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/facility_location/facility_location.ipynb)
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
