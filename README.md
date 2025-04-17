@@ -43,9 +43,9 @@
   在这个例子中，你将学习如何定义和解决一个覆盖类型的问题，即如何配置一个信号塔网络，以向最多的人提供信号覆盖。
 - [曲线拟合（Curve Fitting）](./Introductory%20Examples/curve_fitting):
   尝试这个 Jupyter Notebook 建模示例，了解如何将函数拟合到一组观测值。
-- 设施选址（Facility Location）:
+- [设施选址（Facility Location）](./Introductory%20Examples/facility_location):
   在这个示例中，我们将向您展示如何解决设施选址问题，该问题涉及确定为一组超市供应货物所需的仓库数量和位置。
-- 梦幻篮球（Fantasy Basketball）:
+- [梦幻篮球（Fantasy Basketball）](./Introductory%20Examples/fantasy_basketball):
   此示例在梦幻篮球中结合了机器学习和优化建模。
 - 食品计划（Food Program）:
   在全球运输网络中运输食品是一项具有挑战性的任务。在本笔记本中，我们将构建一个优化模型，以根据联合国世界粮食计划署的真实数据建立食品供应链。
