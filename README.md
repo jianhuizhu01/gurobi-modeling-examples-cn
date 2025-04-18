@@ -47,9 +47,9 @@
   在这个示例中，我们将向您展示如何解决设施选址问题，该问题涉及确定为一组超市供应货物所需的仓库数量和位置。
 - [梦幻篮球（Fantasy Basketball）](./Introductory%20Examples/fantasy_basketball):
   此示例在梦幻篮球中结合了机器学习和优化建模。
-- 食品计划（Food Program）:
+- [食品计划（Food Program）](./Introductory%20Examples//food_program):
   在全球运输网络中运输食品是一项具有挑战性的任务。在本笔记本中，我们将构建一个优化模型，以根据联合国世界粮食计划署的真实数据建立食品供应链。
-- 市场份额分配（Market Sharing）:
+- [市场份额分配（Market Sharing）](./Introductory%20Examples//market_sharing):
   在本示例中，我们将向您展示如何解决一个目标规划问题，该问题涉及将零售商分配给公司的两个部门，以优化多个市场份额目标之间的权衡。
 - 营销活动优化（Marketing Campaign Optimization）:
   几乎每个行业的公司都在寻求优化其营销活动。在这个Jupyter Notebook中，我们将探讨银行和金融服务行业中常见的营销活动优化问题，该问题涉及确定向单个客户提供哪些产品，以便在满足各种业务约束的同时最大化总预期利润。
