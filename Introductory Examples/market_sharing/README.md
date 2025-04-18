@@ -1,22 +1,16 @@
-# Market Sharing
+# 市场分享
 
-This problem is an example of a goal programming problem. For this market sharing problem, we want to allocate retailers 
-to two divisions of a company in order to optimize the trade-offs of several market sharing goals. This problem is 
-formulated as a mixed integer linear programming problem using the Gurobi Python API and solved with the Gurobi Optimizer.
+这个问题是目标规划问题的一个示例。对于这个市场分享问题，我们希望将零售商分配给公司的两个部门，以优化几个市场分享目标的权衡。这个问题使用 Gurobi Python API 建模为混合整数线性规划问题，并使用 Gurobi 优化器求解。
 
-This model is example 13 from the fifth edition of Model Building in Mathematical Programming, by H. Paul Williams on 
-pages 267-268 and 322-324.
+这个模型是 H. Paul Williams 所著《数学规划中的模型构建》第五版中的第13个示例，见第267-268页和322-324页。
 
-This modeling example is at the beginner level, where we assume that you know Python and that you have some knowledge 
-about building mathematical optimization models. The reader should also consult the  [documentation](https://www.gurobi.com/resources/?category-filter=documentation)
-of the Gurobi Python API.
+这个建模示例属于初级水平，我们假设您了解 Python 并且对构建数学优化模型有一定了解。读者还应参考 Gurobi Python API 的[文档](https://www.gurobi.com/resources/?category-filter=documentation)。
 
+## 查看笔记本
 
-## View the notebook
-
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/market_sharing/market_sharing.ipynb)
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/market_sharing/market_sharing.ipynb)
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行笔记本的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
