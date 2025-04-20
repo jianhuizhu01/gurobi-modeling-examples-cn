@@ -51,9 +51,9 @@
   在全球运输网络中运输食品是一项具有挑战性的任务。在本笔记本中，我们将构建一个优化模型，以根据联合国世界粮食计划署的真实数据建立食品供应链。
 - [市场份额分配（Market Sharing）](./Introductory%20Examples//market_sharing):
   在本示例中，我们将向您展示如何解决一个目标规划问题，该问题涉及将零售商分配给公司的两个部门，以优化多个市场份额目标之间的权衡。
-- 营销活动优化（Marketing Campaign Optimization）:
+- [营销活动优化（Marketing Campaign Optimization）](./Introductory%20Examples/marketing_campaign_optimization):
   几乎每个行业的公司都在寻求优化其营销活动。在这个Jupyter Notebook中，我们将探讨银行和金融服务行业中常见的营销活动优化问题，该问题涉及确定向单个客户提供哪些产品，以便在满足各种业务约束的同时最大化总预期利润。
-- 海上风力发电（Offshore Wind Farming）:
+- [海上风力发电（Offshore Wind Farming）](./Introductory%20Examples/offshore_wind_farming):
   在这个例子中，我们将学习如何解决海上风力发电问题。该问题的目标是确定应铺设哪些海底电缆以最低成本连接海上风电场电力网络。
 - 供应网络设计1（Supply Network Design 1）:
   尝试这个Jupyter Notebook建模示例，学习如何解决经典的供应网络设计问题，该问题涉及找到通过网络的最小成本流。我们将向您展示——给定一组工厂、仓库和客户——如何使用数学优化来确定在最小化运输成本的同时满足客户需求的最佳方法。在第2部分中，我们还确定要打开或关闭哪些仓库以最小化总成本。
