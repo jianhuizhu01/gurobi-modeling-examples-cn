@@ -1,24 +1,22 @@
-# COVID-19: Healthcare Facility Capacity Optimization
+# COVID-19：医疗设施容量优化
 
-## Objective and Prerequisites
+## 目标和前提条件
 
-This COVID-19 Healthcare Facility Capacity Optimization problem -which is a variation of the problem described in the 
-[Facility Location](https://www.gurobi.com/resource/facility-location-problem/) Jupyter Notebook - shows you how to 
-determine the optimal location and capacity of healthcare facilities in order to:
+本 COVID-19 医疗设施容量优化问题（是 [设施选址](https://www.gurobi.com/resource/facility-location-problem/) Jupyter Notebook 
+中描述问题的一个变体）向您展示如何确定医疗设施的最佳位置和容量，以实现：
 
-* Satisfy demand from COVID-19 patients for treatment,
-* Minimize the cost of opening temporary facilities for healthcare providers, and
-* Predict the allocation of COVID-19 patients from a specific county to a specific healthcare facility.
+* 满足 COVID-19 患者的治疗需求，
+* 最小化医疗服务提供者开设临时设施的成本，以及
+* 预测特定县的 COVID-19 患者到特定医疗设施的分配情况。
 
-This modeling example is at the beginner level, where we assume that you know Python and that you have some knowledge of 
-how to build mathematical optimization models.
+这个建模示例属于入门级别，我们假设您了解 Python 并且对如何构建数学优化模型有一定了解。
 
-## View the notebook
+## 查看 notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/covid19_facility_location/covid19_facility_location.ipynb)
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/covid19_facility_location/covid19_facility_location.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行 notebooks 的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
