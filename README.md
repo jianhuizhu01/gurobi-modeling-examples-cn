@@ -55,9 +55,9 @@
   几乎每个行业的公司都在寻求优化其营销活动。在这个Jupyter Notebook中，我们将探讨银行和金融服务行业中常见的营销活动优化问题，该问题涉及确定向单个客户提供哪些产品，以便在满足各种业务约束的同时最大化总预期利润。
 - [海上风力发电（Offshore Wind Farming）](./Introductory%20Examples/offshore_wind_farming):
   在这个例子中，我们将学习如何解决海上风力发电问题。该问题的目标是确定应铺设哪些海底电缆以最低成本连接海上风电场电力网络。
-- 供应网络设计1（Supply Network Design 1）:
+- [供应网络设计1（Supply Network Design 1）](./Introductory%20Examples/supply_network_design):
   尝试这个Jupyter Notebook建模示例，学习如何解决经典的供应网络设计问题，该问题涉及找到通过网络的最小成本流。我们将向您展示——给定一组工厂、仓库和客户——如何使用数学优化来确定在最小化运输成本的同时满足客户需求的最佳方法。在第2部分中，我们还确定要打开或关闭哪些仓库以最小化总成本。
-- Covid-19设施优化（Covid19 Facility Optimization）:
+- [Covid-19设施优化（Covid19 Facility Optimization）](./Introductory%20Examples/covid19_facility_location):
   这个COVID-19医疗设施容量优化问题是设施选址（Facility Location）问题的一个变体，向您展示如何确定医疗设施的最佳位置和容量。
 
 
