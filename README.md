@@ -65,11 +65,11 @@
 
 中级水平的示例假设你了解 Python 并且熟悉 Gurobi Python API。此外，你应该具备构建数学优化模型的知识。
 
-- 农产品定价（Agricultural Pricing）:
+- [农产品定价（Agricultural Pricing）](./Intermediate%20Examples/agricultural_pricing):
   尝试这个示例，了解如何使用数学优化来解决一个常见但关键的农产品定价问题：确定一个国家乳制品的价格和需求，以最大化这些产品销售所得的总收入。您将学习如何使用 Gurobi Python API 将此问题建模为二次优化问题，并使用 Gurobi 优化器进行求解。
-- 线性回归（Linear Regression）:
+- [线性回归（Linear Regression）](./Intermediate%20Examples/linear_regression):
   在此示例中，你将学习如何使用数学规划进行带特征选择的线性回归。我们将向你展示如何构建此线性回归问题的混合整数二次规划（MIQP）模型。
-- 汽车租赁（Car Rental）:
+- [汽车租赁（Car Rental）](./Intermediate%20Examples/car_rental):
   本笔记本将教你如何使用数学优化来确定汽车租赁公司每天应该拥有多少辆车以及这些车每天应位于何处，以实现每周利润最大化。第二部分考虑了数学优化如何用于确定汽车租赁公司应在哪些地点扩展维修能力的扩展内容。
 - 客户分配（Customer Assignment）:
   此笔记本是设施选址问题的中级版本。此外，我们展示了如何在预处理中使用机器学习，以减少大数据集的计算负担。
