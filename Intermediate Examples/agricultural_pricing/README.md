@@ -1,22 +1,18 @@
-# Agricultural Pricing
+# 农产品定价
 
-This problem is an example of an agricultural pricing problem, where we want to determine the prices and demand for the 
-dairy products of a country in order to maximize total revenue derived from the sales of those products. 
-This problem is formulated as a quadratic optimization problem using the Gurobi Python API and solved with the Gurobi 
-Optimizer.
+这是一个农产品定价问题示例，我们需要确定一个国家的乳制品价格和需求，以实现从这些产品销售中获得的总收入最大化。
+该问题使用Gurobi Python API构建为二次优化问题，并使用Gurobi优化器求解。
 
-This model is example 21 from the fifth edition of Model Building in Mathematical Programming, by H. Paul Williams on 
-pages 276-278 and 333-335.
+本模型是H. Paul Williams所著《数学规划中的模型构建》第五版第276-278页和333-335页中的第21个示例。
 
-This modeling example is at the intermediate level, where we assume that you know Python and are familiar with the 
-Gurobi Python API. In addition, you should have some knowledge about building mathematical optimization models.
+这个建模示例属于中级水平，我们假设您了解Python并熟悉Gurobi Python API。此外，您还应该具备一些构建数学优化模型的知识。
 
-## View the notebook
+## 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/agricultural_pricing/agricultural_pricing.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/agricultural_pricing/agricultural_pricing.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
