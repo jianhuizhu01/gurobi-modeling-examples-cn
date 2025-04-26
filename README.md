@@ -71,9 +71,9 @@
   在此示例中，你将学习如何使用数学规划进行带特征选择的线性回归。我们将向你展示如何构建此线性回归问题的混合整数二次规划（MIQP）模型。
 - [汽车租赁（Car Rental）](./Intermediate%20Examples/car_rental):
   本笔记本将教你如何使用数学优化来确定汽车租赁公司每天应该拥有多少辆车以及这些车每天应位于何处，以实现每周利润最大化。第二部分考虑了数学优化如何用于确定汽车租赁公司应在哪些地点扩展维修能力的扩展内容。
-- 客户分配（Customer Assignment）:
+- [客户分配（Customer Assignment）](./Intermediate%20Examples/customer_assignment):
   此笔记本是设施选址问题的中级版本。此外，我们展示了如何在预处理中使用机器学习，以减少大数据集的计算负担。
-- 经济规划（Economic Planning）:
+- [经济规划（Economic Planning）](./Intermediate%20Examples/economic_planning):
   在此示例中，你将了解到数学优化如何用于解决一个国家可能面临的宏观经济规划问题。目标是确定经济的不同可能增长模式。
 - 效率分析（Efficiency Analysis）:
   数学优化如何用于衡量组织的效率？在此示例中，您将了解如何将效率分析模型制定为线性规划问题。
