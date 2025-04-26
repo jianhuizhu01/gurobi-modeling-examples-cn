@@ -1,22 +1,17 @@
-# Economic Planning
+# 经济规划
 
-This model is an example of an economic planning problem that a country may face. This problem is an input–output model 
-representing the interrelationships between the different sectors of a country’s economy. In such problems, the goal 
-is to determine different possible growth patterns for the economy. The input-output model is formulated as a linear 
-programming problem using the Gurobi Python API and solved with the Gurobi Optimizer.
+本模型是一个国家可能面临的经济规划问题示例。这是一个投入产出模型，用于表示国民经济不同部门之间的相互关系。在这类问题中，目标是确定经济可能的不同增长模式。该投入产出模型使用Gurobi Python API构建为线性规划问题，并使用Gurobi优化器求解。
 
-This model is example 9 from the fifth edition of Model Building in Mathematical Programming by H. Paul Williams on 
-pages 263-264 and 316-317.
+本模型是H. Paul Williams所著《Model Building in Mathematical Programming》第五版第263-264页和316-317页中的示例9。
 
-This modeling example is at the intermediate level, where we assume that you know Python and are familiar with the 
-Gurobi Python API. In addition, you should have some knowledge about building mathematical optimization models.
+这是一个中级建模示例，我们假设您了解Python并熟悉Gurobi Python API。此外，您还应该具备一些构建数学优化模型的知识。
 
-## View the notebook
+## 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/economic_planning/economic_planning.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/economic_planning/economic_planning.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
