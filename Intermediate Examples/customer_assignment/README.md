@@ -1,39 +1,35 @@
-# Customer Assignment Problem
+# 客户分配问题
 
-## Motivation
+## 动机
 
-Many companies in various industries must, at some point, make strategic decisions about where to build facilities to support their operations. For example:
+许多不同行业的公司在某个时候都必须就在何处建设设施来支持其运营做出战略决策。例如：
 
-- Producers of goods need to decide how to design their supply chains – which encompass factories, distribution centers, warehouses, and retail stores.
-- Healthcare providers need to determine where to build hospitals to maximize their population coverage.
+- 商品生产商需要决定如何设计他们的供应链 – 包括工厂、配送中心、仓库和零售店。
+- 医疗保健提供者需要确定在何处建设医院以最大限度地覆盖人口。
 
-These are strategic decisions that are difficult to implement and costly to change because they entail long-term 
-investments. Furthermore, these decisions have a significant impact, both in terms of customer satisfaction and cost 
-management. One of the critical factors to consider in this process is the location of the customers that the company is 
-planning to serve.
+这些都是难以实施且代价高昂的战略决策，因为它们需要长期投资。此外，这些决策在客户满意度和成本管理方面都有重大影响。在此过程中要考虑的关键因素之一是公司计划服务的客户的位置。
 
-This modeling example is at the intermediate level, where we assume that you know Python and are familiar with the 
-Gurobi Python API. In addition, you should have some knowledge about building mathematical optimization models.
+这个建模示例属于中级水平，我们假设您了解Python并熟悉Gurobi Python API。此外，您还应该具备构建数学优化模型的一些知识。
 
-## Proposed Solution
+## 解决方案
 
-A mathematical model that selects the optimal placement of facilities (from a set of candidate locations) in order to minimize the distance between the company's facilities and the customers.
+一个数学模型，用于选择设施的最佳位置（从候选位置集合中），以最小化公司设施与客户之间的距离。
 
-## Key Features of the Solution
+## 解决方案的主要特点
 
-- Application of the k-means algorithm to pre-process the customer location data.
-- Deployment of a Binary Integer Program.
+- 应用k-means算法对客户位置数据进行预处理。
+- 部署二元整数规划。
 
-## Added Value
+## 附加价值
 
-It is shown how machine learning can be leveraged to cope with big datasets.
+展示了如何利用机器学习来处理大型数据集。
 
-## View the notebook
+## 查看笔记本
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/customer_assignment/customer_assignment.ipynb)
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/customer_assignment/customer_assignment.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可或运行笔记本的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
