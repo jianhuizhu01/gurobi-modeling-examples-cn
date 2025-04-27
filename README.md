@@ -75,9 +75,9 @@
   此笔记本是设施选址问题的中级版本。此外，我们展示了如何在预处理中使用机器学习，以减少大数据集的计算负担。
 - [经济规划（Economic Planning）](./Intermediate%20Examples/economic_planning):
   在此示例中，你将了解到数学优化如何用于解决一个国家可能面临的宏观经济规划问题。目标是确定经济的不同可能增长模式。
-- 效率分析（Efficiency Analysis）:
+- [效率分析（Efficiency Analysis）](./Intermediate%20Examples/efficiency_analysis):
   数学优化如何用于衡量组织的效率？在此示例中，您将了解如何将效率分析模型制定为线性规划问题。
-- 发电（Electrical Power Generation）:
+- [发电（Electrical Power Generation）](./Intermediate%20Examples/electrical_power_generation):
   此模型是发电问题（也称为机组组合问题）的一个示例。它选择一组最优的发电站开启，以满足24小时时间范围内的预期电力需求。在第二部分中，该模型得到扩展，并增加了使用水力发电厂满足需求的选项。
 - 工厂规划（Factory Planning）:
   在此示例中，我们创建了一个可使利润最大化的最佳生产计划。在第二部分中，我们创建了一个不仅能使利润最大化，还能确定对机器进行维护操作的月份的最佳生产计划。
