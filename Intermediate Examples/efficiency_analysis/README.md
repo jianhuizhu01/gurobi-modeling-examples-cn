@@ -1,21 +1,19 @@
-# Efficiency Analysis 
+# 效率分析
 
-This Efficiency Analysis model is an example of the Data Envelopment Analysis (DEA) problem, which is used to 
-measure the productive efficiency of an organization.  The DEA Problem is formulated as a linear programming 
-problem using the Gurobi Python API and solved with the Gurobi Optimizer.
+效率分析模型是数据包络分析（DEA）问题的一个示例，用于衡量组织的生产效率。DEA问题使用Gurobi Python API
+被构建为线性规划问题，并通过Gurobi优化器求解。
 
-This model is example 22 from the fifth edition of Model Building in Mathematical Programming by H. Paul Williams 
-on pages 278-280 and 335-336.
+该模型是H. Paul Williams所著《Model Building in Mathematical Programming》第五版第278-280页和335-336页中的
+第22个示例。
 
-This example is at the intermediate level where we assume that you know Python and the Gurobi Python API and that 
-you have some knowledge of building mathematical optimization models.
+这是一个中级示例，我们假设您了解Python和Gurobi Python API，并且对构建数学优化模型有一定了解。
 
-## View the notebook
+## 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/efficiency_analysis/efficiency_analysis.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/efficiency_analysis/efficiency_analysis.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
