@@ -1,37 +1,31 @@
-# Factory Planning
+# 工厂规划
 
 ---
-## Factory Planning 1
-This model is an example of a production planning problem. In such problems, the goal is to create an 
-optimal production plan to maximize profit.
+## 工厂规划 1
+本模型是生产规划问题的示例。在此类问题中，目标是创建一个最优的生产计划以实现利润最大化。
 
-More information on this type of model can be found in example # 3 of the fifth edition of Modeling 
-Building in Mathematical Programming by H. P. Williams on pages 255-256 and 300-302.
+关于此类模型的更多信息可以在H. P. Williams所著的《Modeling Building in Mathematical Programming》第五版第255-256页和300-302页的示例#3中找到。
 
-This modeling example is at the intermediate level, where we assume that you know Python and are familiar with 
-the Gurobi Python API. In addition, you should have some knowledge about building mathematical optimization models.
+这个建模示例属于中级水平，我们假设您了解Python并熟悉Gurobi Python API。此外，您还应该具备一些构建数学优化模型的知识。
 
-### View the notebook
+### 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/factory_planning/factory_planning_1.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/factory_planning/factory_planning_1.ipynb)
 
 ---
-## Factory Planning 2
-This model extends the Factory Planning I example above to add complexity whereby the month where each machine is 
-down will, instead of being fixed, be determined as a part of the optimized plan.
+## 工厂规划 2
+本模型是对上述工厂规划I示例的扩展，增加了复杂性，即每台机器停机的月份不再是固定的，而是作为优化计划的一部分来确定。
 
-More information on this type of model can be found in example # 4 of the fifth edition of Modeling Building in 
-Mathematical Programming by H. P. Williams on pages 256 and 302-303.
+关于此类模型的更多信息可以在H. P. Williams所著的《Modeling Building in Mathematical Programming》第五版第256页和302-303页的示例#4中找到。
 
-This modeling example is at the intermediate level, where we assume that you know Python and are familiar with 
-the Gurobi Python API. In addition, you should have some knowledge about building mathematical optimization models.
+这个建模示例属于中级水平，我们假设您了解Python并熟悉Gurobi Python API。此外，您还应该具备一些构建数学优化模型的知识。
 
-### View the notebook
+### 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/factory_planning/factory_planning_2.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/factory_planning/factory_planning_2.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
