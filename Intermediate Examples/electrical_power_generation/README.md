@@ -1,38 +1,32 @@
-# Electrical Power Generation
+# 电力生产
 
 ---
-## Electrical Power 1
+## 电力生产模型 1
 
-This model is an example of an electrical power generation problem (also known as a unit commitment problem). It selects 
-an optimal set of power stations to turn on in order to satisfy anticipated power demand over a 24-hour time horizon.
+本模型是一个电力生产问题（也称为机组组合问题）的示例。它选择最优的发电站组合以满足24小时时间范围内的预期电力需求。
 
-This model is example 15 from the fifth edition of Model Building in Mathematical Programming, by H. Paul Williams on 
-pages 270-271 and 325-326.
+该模型是H. Paul Williams所著《Model Building in Mathematical Programming》第五版第270-271页和第325-326页中的示例15。
 
-This example is of intermediate difficulty; we assume that you know Python and the Gurobi Python API and that you have 
-some knowledge of building mathematical optimization models.
+这是一个中等难度的示例；我们假设您了解Python和Gurobi Python API，并且对构建数学优化模型有一定的了解。
 
-### View the notebook
+### 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/electrical_power_generation/electrical_power_1.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/electrical_power_generation/electrical_power_1.ipynb)
 
 ---
-## Electrical Power 2
+## 电力生产模型 2
 
-This model is an extension of an earlier 'Electrical Power 1 ' example (example 15 from HP Williams); the extension adds 
-the option of using hydroelectric power plants to satisfy demand.
+本模型是早期"电力生产模型1"（HP Williams的示例15）的扩展版本；扩展部分增加了使用水力发电厂满足需求的选项。
 
-This model is example 16 from the fifth edition of Model Building in Mathematical Programming, by H. Paul Williams on 
-pages 271-272 and 326-327.
+该模型是H. Paul Williams所著《Model Building in Mathematical Programming》第五版第271-272页和第326-327页中的示例16。
 
-This example is of intermediate difficulty; we assume that you know Python and the Gurobi Python API and that you have 
-some knowledge of building mathematical optimization models.
+这是一个中等难度的示例；我们假设您了解Python和Gurobi Python API，并且对构建数学优化模型有一定的了解。
 
-### View the notebook
+### 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/electrical_power_generation/electrical_power_2.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/electrical_power_generation/electrical_power_2.ipynb)
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
