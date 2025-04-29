@@ -1,37 +1,30 @@
-# Food Manufacture
+# 食品生产
 
 ---
-## Food Manufacture 1
-This model is an example of a blending problem. In blending optimization problems, multiple raw materials are combined 
-in a way the meets the stated constraints for the lowest cost.
+## 食品生产 1
+本模型是一个混合问题的例子。在混合优化问题中，多种原材料以满足既定约束条件且成本最低的方式进行组合。
 
-More information on this type of model can be found in example #1 of the fifth edition of Modeling Building in 
-Mathematical Programming by H. P. Williams on pages 253-254 and 296-298.
+关于此类模型的更多信息可以在 H. P. Williams 所著《数学规划中的模型构建》第五版第 253-254 页和 296-298 页的例子 #1 中找到。
 
-This modeling example is at the intermediate level, where we assume that you know Python and are familiar with the 
-Gurobi Python API. In addition, you should have some knowledge about building mathematical optimization models.
+这个建模示例属于中级水平，我们假设您了解 Python 并熟悉 Gurobi Python API。此外，您还应该具备一些构建数学优化模型的知识。
 
-### View the notebook
+### 查看笔记本
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/food_manufacturing/food_manufacture_1.ipynb)
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/food_manufacturing/food_manufacture_1.ipynb)
 
 ---
-## Food Manufacture 2
-This model extends the Food Manufacture I example above to include new constraints that change the problem from a 
-fairly easy to solve linear programming model to an mixed integer model that is harder to solve.
+## 食品生产 2
+本模型是对上述食品生产 I 示例的扩展，增加了新的约束条件，使问题从一个相对容易求解的线性规划模型转变为一个更难求解的混合整数模型。
 
-More information on this type of model can be found in example #2 of the fifth edition of Modeling Building in 
-Mathematical Programming by H. P. Williams on pages 255 and 299-300.
+关于此类模型的更多信息可以在 H. P. Williams 所著《数学规划中的模型构建》第五版第 255 页和 299-300 页的例子 #2 中找到。
 
-This modeling example is at the advanced level, where we assume that you know Python and the Gurobi Python API and 
-that you have advanced knowledge of building mathematical optimization models. Typically, the objective function 
-and/or constraints of these examples are complex or require advanced features of the Gurobi Python API.
+这个建模示例属于高级水平，我们假设您了解 Python 和 Gurobi Python API，并且具有构建数学优化模型的高级知识。通常，这些示例的目标函数和/或约束条件较为复杂，或需要使用 Gurobi Python API 的高级特性。
 
-### View the notebook
+### 查看笔记本
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/food_manufacturing/food_manufacture_2.ipynb)
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/food_manufacturing/food_manufacture_2.ipynb)
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行笔记本的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
