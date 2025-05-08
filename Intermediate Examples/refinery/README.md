@@ -1,23 +1,19 @@
-# Refinery
+# 炼油厂
 
 ---
-### Refinery
-This model is an example of a production problem. In production planning problems, choices must be made regarding the 
-what resources to use to produce what products.
+### 炼油厂
+这个模型是一个生产问题的示例。在生产规划问题中，必须对使用什么资源来生产什么产品做出选择。
 
-More information on this type of model can be found in example # 6 of the fifth edition of Modeling Building in Mathematical 
-Programming by H. P. Williams on pages 258 and 306-310.
+关于这类模型的更多信息，可以在H. P. Williams所著的《数学规划中的模型构建》第五版的示例#6中找到，具体参见第258页和第306-310页。
 
-This modeling example is at the intermediate level, where we assume that you know Python and are familiar with the 
-Gurobi Python API. In addition, you should have some knowledge about building mathematical optimization models.
+这个建模示例属于中级水平，我们假设您已经掌握Python并熟悉Gurobi Python API。此外，您还应该对构建数学优化模型有一定的了解。
 
+## 查看notebook
 
-## View the notebook
-
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/refinery/refinery.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/refinery/refinery.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
