@@ -1,22 +1,18 @@
-# Opencast Mining
+# 露天采矿
 
-This model is an example of a production planning problem. A mining company wants to identify which excavation locations 
-to choose in order to maximize the gross margins of extracting ore. This problem is a binary optimization problem that 
-can be formulated as a linear programming problem using the Gurobi Python API and solved with the Gurobi Optimizer.
+本模型是生产规划问题的一个示例。一个采矿公司想要确定选择哪些开采地点以最大化开采矿石的毛利润。这是一个可以使用Gurobi Python API
+制定为线性规划问题的二元优化问题，并可以使用Gurobi优化器求解。
 
-This model is example 14 from the fifth edition of Model Building in Mathematical Programming, by H. Paul Williams 
-on pages 269-270 and 324-325.
+该模型是H. Paul Williams所著《数学规划中的模型构建》第五版第269-270页和第324-325页中的示例14。
 
-This example is at the intermediate level where we assume that you know Python and the Gurobi Python API and that 
-you have some knowledge of building mathematical optimization models.
+这是一个中级示例，我们假设您了解Python和Gurobi Python API，并且对构建数学优化模型有一定的了解。
 
+## 查看notebook
 
-## View the notebook
-
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/opencast_mining/opencast_mining.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/opencast_mining/opencast_mining.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行notebook的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
