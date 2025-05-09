@@ -104,7 +104,7 @@
   在此示例中，我们考虑整数规划模型的一个约束，其中该约束中的所有决策变量都是二进制的，目标是找到另一个涉及相同二进制变量的约束，该约束在逻辑上与原始约束等效，但右侧的绝对值尽可能小。
 - [分散规划（Decentralization Planning）](./Advanced%20Examples/decentralization_planning):
   该模型是设施选址问题的高级版本。给定一家公司的一系列部门以及这些部门可能所在的潜在城市，我们希望确定每个部门的“最佳”位置，以实现毛利润最大化。
-- 农场规划（Farm Planning）:
+- [农场规划（Farm Planning）](./Advanced%20Examples/farm_planning):
   这是一个高级生产规划问题的例子。
 - 指数跟踪（Index Tracking）:
   指数跟踪投资组合优化。
