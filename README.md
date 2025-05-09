@@ -93,10 +93,8 @@
   假设我们知道所有可用发电厂的集合以及一天中每小时的电力需求。我们希望创建一个时间表，以决定每个发电厂应产生多少电力，以及何时将发电厂“开启”和“关闭”，以便将总成本降至最低。
 - [炼油厂（Refinery）](./Intermediate%20Examples/refinery):
   此模型是生产计划问题的一个示例，在该问题中，必须就生产哪些产品以及使用哪些资源做出决策。
-- 技术人员路线规划与调度（Technician Routing and Scheduling）:
+- [技术人员路线规划与调度（Technician Routing and Scheduling）](./Intermediate%20Examples/technician_routing_scheduling):
   尝试这个建模示例，了解数学优化如何帮助电信公司实现技术人员分配、调度和路线决策的自动化并加以改进，以确保实现最高水平的客户满意度。您将学习如何构建具有时间窗约束的多仓库车辆路径问题。
-- 露天采矿（Opencast Mining）:
-  该模型是生产计划问题的一个示例。一家矿业公司希望确定选择哪些挖掘地点，以最大限度地提高矿石开采的毛利。
 
 ## 高级示例（Advanced Examples）
 
