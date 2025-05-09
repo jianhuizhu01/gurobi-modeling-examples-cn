@@ -1,21 +1,17 @@
-# Technician Routing and Scheduling Problem
+# 技术人员路径规划与调度问题
 
-## Objective and Prerequisites
+## 目标和前提条件
 
-In this Jupyter Notebook, you will learn how to formulate a multi-depot vehicle routing problem with time windows 
-constraints using the Gurobi Python API. To fully understand the content of this notebook, the reader should be 
-familiar with object-oriented-programming.
+在这个 Jupyter Notebook 中，您将学习如何使用 Gurobi Python API 来构建一个带有时间窗口约束的多仓库车辆路径规划问题。
+为了充分理解本笔记本的内容，读者应该熟悉面向对象编程。
 
-This modeling example is at the intermediate level, where we assume that you know Python and are familiar with the 
-Gurobi Python API. In addition, you have some knowledge about building mathematical optimization models.
+这是一个中级建模示例，我们假设您已经了解 Python 并熟悉 Gurobi Python API。此外，您还需要具备一些构建数学优化模型的知识。
 
+## 查看笔记本
 
-## View the notebook
-
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/technician_routing_scheduling/technician_routing_scheduling.ipynb)
-
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/technician_routing_scheduling/technician_routing_scheduling.ipynb)
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行笔记本的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
