@@ -1,22 +1,16 @@
-# Decentralization Planning
+# 去中心化规划
 
-This model is an example of a facility location problem. Given a set of departments of a company, and potential cities 
-where these departments can be located, we want to determine the "best" location of each department in order to maximize 
-gross margins. This problem is formulated as a quadratic assignment problem using the Gurobi Python API and solved with 
-the Gurobi Optimizer.
+本模型是一个设施选址问题的示例。给定公司的一组部门，以及这些部门可能设立的城市地点，我们希望确定每个部门的"最佳"位置，以实现利润最大化。这个问题使用Gurobi Python API被建模为二次分配问题，并通过Gurobi优化器求解。
 
-This model is example 10 from the fifth edition of Model Building in Mathematical Programming, by H. Paul Williams on 
-pages 265 and 317-319.
+本模型是H. Paul Williams所著《数学规划中的模型构建》第五版第265页和317-319页中的示例10。
 
-This modeling example is at the advanced level, where we assume that you know Python and the Gurobi Python API and that 
-you have advanced knowledge of building mathematical optimization models. Typically, the objective function and/or 
-constraints of these examples are complex or require advanced features of the Gurobi Python API.
+这个建模示例属于高级水平，我们假设您了解Python和Gurobi Python API，并且在构建数学优化模型方面具有进阶知识。通常，这些示例的目标函数和/或约束条件较为复杂，或需要使用Gurobi Python API的高级功能。
 
-## View the notebook
+## 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/decentralization_planning/decentralization_planning.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/decentralization_planning/decentralization_planning.ipynb)
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
