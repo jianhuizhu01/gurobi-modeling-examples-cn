@@ -1,24 +1,17 @@
-# Constraint Optimization
+# 约束优化
 
-This model is an example of a constraint optimization problem. Considering a constraint of an integer programming model 
-where all the decision variables in the constraint are binary, the goal is to find another constraint involving the same 
-binary variables that is logically equivalent to the original constraint, but that has the smallest possible absolute 
-value of the right-hand side. This problem is formulated as a linear programming problem using the Gurobi Python API and 
-solved with the Gurobi Optimizer.
+本模型是约束优化问题的一个示例。考虑整数规划模型中的一个约束，其中约束中的所有决策变量都是二进制的，目标是找到另一个涉及相同二进制变量的约束，该约束在逻辑上等同于原始约束，但具有最小可能的右侧绝对值。这个问题使用Gurobi Python API formulated为线性规划问题，并使用Gurobi优化器求解。
 
-This model is example 18 from the fifth edition of Model Building in Mathematical Programming, by H. Paul Williams on 
-pages 273 and 328-330.
+该模型是H. Paul Williams所著《Model Building in Mathematical Programming》第五版第273页和328-330页中的示例18。
 
-This modeling example is at the advanced level, where we assume that you know Python and the Gurobi Python API and 
-that you have advanced knowledge of building mathematical optimization models. Typically, the objective function 
-and/or constraints of these examples are complex or require advanced features of the Gurobi Python API.
+这个建模示例属于高级水平，我们假设您了解Python和Gurobi Python API，并且具有构建数学优化模型的高级知识。通常，这些示例的目标函数和/或约束是复杂的，或需要Gurobi Python API的高级功能。
 
-## View the notebook
+## 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/constraint_optimization/constraint_optimization.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/constraint_optimization/constraint_optimization.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
-© Gurobi Optimization, LLC
+© Gurobi优化有限责任公司
