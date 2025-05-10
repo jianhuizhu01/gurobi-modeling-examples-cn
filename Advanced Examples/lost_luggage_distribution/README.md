@@ -1,22 +1,17 @@
-# Lost Luggage Distribution
+# 行李丢失配送问题
 
-This model is an example of a vehicle routing problem. A small company with six vans has a contract with a number of 
-airlines to pick up lost or delayed baggage and deliver each piece of luggage to its owner. This problem is 
-formulated as a binary optimization problem using the Gurobi Python API and solved with the Gurobi Optimizer.
+本模型是车辆路径问题的一个示例。一家拥有六辆货车的小公司与多家航空公司签订了合同，负责接收丢失或延误的行李，并将每件行李送达其主人手中。此问题使用Gurobi Python API构建为二进制优化问题，并使用Gurobi优化器求解。
 
-This model is example 27 from the fifth edition of Model Building in Mathematical Programming by H. Paul Williams 
-on pages 287-289 and 343-344.
+本模型是H. Paul Williams所著《数学规划中的模型构建》第五版第287-289页和343-344页中的第27个示例。
 
-This modeling example is at the advanced level, where we assume that you know Python and the Gurobi Python API and 
-that you have advanced knowledge of building mathematical optimization models. Typically, the objective function 
-and/or constraints of these examples are complex or require advanced features of the Gurobi Python API.
+这是一个高级建模示例，我们假设您已掌握Python和Gurobi Python API的使用方法，并且具备构建数学优化模型的高级知识。通常，这些示例的目标函数和/或约束条件较为复杂，需要使用Gurobi Python API的高级功能。
 
-## View the notebook
+## 查看notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/lost_luggage_distribution/lost_luggage_distribution.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/lost_luggage_distribution/lost_luggage_distribution.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+关于许可证或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
-Copyright © 2020 Gurobi Optimization, LLC
+版权所有 © 2020 Gurobi Optimization, LLC
