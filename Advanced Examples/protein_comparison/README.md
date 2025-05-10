@@ -1,20 +1,16 @@
-# Protein Comparison
+# 蛋白质比较
 
-This model is an example of a Protein Comparison problem formulated as a quadratic assignment problem using the Gurobi 
-Python API and solved with the Gurobi Optimizer.
+本模型是使用Gurobi Python API将蛋白质比较问题构建为二次分配问题并使用Gurobi优化器求解的示例。
 
-This model is example 29 from the fifth edition of Model Building in Mathematical Programming by H. Paul Williams 
-on pages 290-291 and 345.
+该模型是H. Paul Williams所著《数学规划中的模型构建》第五版第290-291页和第345页中的第29个示例。
 
-This modeling example is at the advanced level, where we assume that you know Python and the Gurobi Python API 
-and that you have advanced knowledge of building mathematical optimization models. Typically, the objective function and/or constraints of these examples are complex or require advanced features of the Gurobi Python API.
+这是一个高级建模示例，我们假设您了解Python和Gurobi Python API，并且在构建数学优化模型方面具有高级知识。通常，这些示例的目标函数和/或约束条件较为复杂，或需要使用Gurobi Python API的高级功能。
 
+## 查看notebook
 
-## View the notebook
-
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/protein_comparison/protein_comparison.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/protein_comparison/protein_comparison.ipynb)
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
