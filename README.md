@@ -108,17 +108,17 @@
   这是一个高级生产规划问题的例子。
 - 指数跟踪（Index Tracking）:
   指数跟踪投资组合优化。
-- 丢失行李分配（Lost Luggage Distribution）:
+- [丢失行李分配（Lost Luggage Distribution）](./Advanced%20Examples/lost_luggage_distribution):
   这是一个带时间窗的车辆路径问题示例。它涉及帮助一家公司确定将丢失或延误的行李运送给合法所有者所需的最少货车数量，并确定货车对客户的最佳分配。
-- 人力规划（Manpower Planning）:
+- [人力规划（Manpower Planning）](./Advanced%20Examples/manpower_planning):
   此笔记本解决了一个人员配置规划问题，其中必须在人员招聘、培训、裁员和员工排班方面做出选择。
-- 牛奶收集（Milk Collection）:
+- [牛奶收集（Milk Collection）](./Advanced%20Examples/manpower_planning):
   这是一个容量受限的车辆路径问题示例。只有一辆容量有限的油罐车，你需要确定油罐车每天从一组农场收集牛奶的最佳路线。
-- 投资组合选择优化（Portfolio Selection Optimization）:
+- [投资组合选择优化（Portfolio Selection Optimization）](./Advanced%20Examples/portfolio_selection_optimization):
   该模型是经典马科维茨投资组合选择优化模型的一个示例。我们希望找到在一组股票中进行投资的投资组合比例，以平衡风险和回报。它是一个二次规划（QP）模型，分别具有用于回报和风险的向量和矩阵数据。
-- 汇集问题（Pooling）:
+- [汇集问题（Pooling）](./Advanced%20Examples/pooling):
   众多行业的公司——包括石油化工炼油、废水处理和采矿——使用数学优化来解决汇集问题。这个问题可以被视为最小成本流问题和混合问题的推广。
-- 蛋白质比较（Protein Comparison）:
+- [蛋白质比较（Protein Comparison）](./Advanced%20Examples/protein_comparison):
   你将学习如何将蛋白质比较问题建模为二次分配问题。它涉及测量两种蛋白质的相似性。
 - 蛋白质折叠（Protein Folding）:
   该问题涉及一种蛋白质，它由一条氨基酸链组成。目标是预测这条链的最佳折叠方式。
