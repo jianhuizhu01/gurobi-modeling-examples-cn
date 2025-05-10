@@ -120,15 +120,15 @@
   众多行业的公司——包括石油化工炼油、废水处理和采矿——使用数学优化来解决汇集问题。这个问题可以被视为最小成本流问题和混合问题的推广。
 - [蛋白质比较（Protein Comparison）](./Advanced%20Examples/protein_comparison):
   你将学习如何将蛋白质比较问题建模为二次分配问题。它涉及测量两种蛋白质的相似性。
-- 蛋白质折叠（Protein Folding）:
+- [蛋白质折叠（Protein Folding）](./Advanced%20Examples/protein_folding):
   该问题涉及一种蛋白质，它由一条氨基酸链组成。目标是预测这条链的最佳折叠方式。
-- 铁路调度（Railway Dispatching）:
+- [铁路调度（Railway Dispatching）](./Advanced%20Examples/railway_dispatching):
   在这个笔记本中，我们研究容量有限的情况下共享资源（轨道和车站）的火车调度问题。目标是最小化延误。
-- 旅行推销员（Traveling Salesman）:
+- [旅行推销员（Traveling Salesman）](./Advanced%20Examples/traveling_salesman):
   本笔记本涵盖了现存最著名的组合优化问题之一：旅行推销员问题（TSP）。TSP 的目标——找到访问每个城市一次并返回原始城市的最短可能路线——很简单，但解决这个问题是一项复杂而具有挑战性的努力。这个示例使用了 Gurobi 的[回调（callback）](https://www.gurobi.com/documentation/current/refman/py_cb_s.html)功能。
-- 员工排班（Workforce Scheduling）:
+- [员工排班（Workforce Scheduling）](./Advanced%20Examples/workforce):
   在本笔记本中，我们将展示如何使用数学优化来生成最佳员工排班，以最小化公司需要雇用的临时员工数量并最大限度地提高员工公平性。该问题被表述为多目标混合整数规划（MIP）模型，并使用 Gurobi 的[多目标功能（multiple objectives feature）](https://www.gurobi.com/documentation/current/refman/multiple_objectives.html)。
-- 收益管理（Yield Management）:
+- [收益管理（Yield Management）](./Advanced%20Examples/yield_management):
   在此示例中，我们将向您展示航空公司如何使用人工智能技术制定最佳的座位定价策略。您将学习如何将此收益管理问题表述为一个三阶段随机规划问题。
 
 ## 按业务需求对示例分类
