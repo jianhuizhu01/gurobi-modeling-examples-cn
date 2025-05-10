@@ -1,24 +1,22 @@
-# Manpower Planning
+# 人力资源规划
 
 ---
-### Manpower Planning
-This model is an example of a staffing problem. In staffing planning problems, choices must be made regarding the 
-recruitment, training, redundancy (retention) and scheduling of staff.
+### 人力资源规划
+这个模型是一个人员配置问题的示例。在人员配置规划问题中，需要对员工的招聘、培训、裁员（留任）和排班做出选择。
 
-More information on this type of model can be found in example #5 of the fifth edition of Model Building in Mathematical 
-Programming, by H. Paul Williams on pages 256-257 and 303-304.
+关于这类模型的更多信息可以在 H. Paul Williams 所著的《Model Building in Mathematical Programming》第五版的示例 #5 中找到，
+具体内容见第 256-257 页和第 303-304 页。
 
-This modeling example is at the advanced level, where we assume that you know Python and the Gurobi Python API and 
-that you have advanced knowledge of building mathematical optimization models. Typically, the objective function 
-and/or constraints of these examples are complex or require advanced features of the Gurobi Python API.
+这个建模示例属于高级水平，我们假设您了解 Python 和 Gurobi Python API，并且在构建数学优化模型方面具有较深的知识。
+通常，这些示例的目标函数和/或约束条件比较复杂，或需要使用 Gurobi Python API 的高级功能。
 
 
-## View the notebook
+## 查看 notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/manpower_planning/manpower_planning.ipynb)
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/manpower_planning/manpower_planning.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行 notebooks 的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
