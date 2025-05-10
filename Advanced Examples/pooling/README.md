@@ -1,40 +1,40 @@
-# Standard Pooling Problem
+# 标准混池问题
 
-## Motivation
+## 背景动机
 
-The Pooling Problem is a challenging problem in the petrochemical refining, wastewater treatment and mining industries. 
-This problem can be regarded as a generalization of the minimum-cost flow problem and the blending problem. 
-It is indeed important because of the significant savings it can generate, so it comes as no surprise that it has been 
-studied extensively since Haverly pointed out the non-linear structure of this problem in 1978.
+混池问题是石油化工精炼、废水处理和采矿行业中一个具有挑战性的问题。
+该问题可以被视为最小成本流问题和混合问题的泛化。
+由于其可以产生显著的成本节约，这个问题确实非常重要。因此，自1978年Haverly指出该问题的非线性结构以来，
+它就一直受到广泛研究。
 
-This modeling example is at the advanced level, where we assume that you know Python and the Gurobi Python API and 
-that you have advanced knowledge of building mathematical optimization models. Typically, the objective function and/or 
-constraints of these examples are complex or require advanced features of the Gurobi Python API.
+本建模示例属于高级水平，我们假设您了解Python和Gurobi Python API，
+并且具有构建数学优化模型的高级知识。通常，这些示例的目标函数和/或约束条件
+都比较复杂，或需要使用Gurobi Python API的高级功能。
 
-## Proposed Solution
+## 解决方案
 
-Two alternative formulations based on Bilinear Programming, a subclass of non-convex Quadratic Programming problems, are presented, namely:
+基于双线性规划（非凸二次规划问题的一个子类）提出了两种替代性建模方法：
 
-- P-formulation (concentration).
-- Q-formulation (proportion).
+- P-公式（浓度）
+- Q-公式（比例）
 
-## Key Features of the Solution
+## 解决方案的主要特点
 
-- Deployment of Bilinear Programs.
-- Optimization based on Spatial Branch and Bound (sB&B).
-- Benchmark run on an instance of the Standard Pooling Problem to compare the performance of the formulations mentioned above.
+- 部署双线性规划
+- 基于空间分支定界法(sB&B)的优化
+- 在标准混池问题实例上进行基准测试，比较上述建模方法的性能
 
-## Added Value
+## 价值亮点
 
-It is shown that solving Bilinear Programs with Gurobi is as easy as configuring a single global parameter. The dramatic difference in performance of alternative formulations is also highlighted.
+通过示例说明，使用Gurobi求解双线性规划问题可以通过配置单个全局参数来实现。
+同时也突出展示了不同建模方法在性能上的显著差异。
 
+## 查看notebook
 
-## View the notebook
-
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/pooling/std_pooling.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/pooling/std_pooling.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行notebooks的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
