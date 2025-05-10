@@ -1,24 +1,24 @@
-# Yield Management  
+# 收益管理
 
-This model is an example of a Yield Management problem. 
-Yield management is a variable pricing strategy, based on understanding, anticipating, and influencing consumer 
-behavior in order to maximize revenue or profits from a fixed, time-limited resource (such as airline seats). This Yield Management Problem is formulated as a three-period stochastic programming problem using the Gurobi 
-Python API and solved with the Gurobi Optimizer.
+这个模型是收益管理问题的一个例子。
+收益管理是一种变动定价策略，它基于理解、预测和影响消费者行为，
+以便从固定的、时间有限的资源（如航空座位）中获取最大收益或利润。这个收益管理问题被
+formulated作为一个三阶段随机规划问题，使用Gurobi Python API构建并由Gurobi优化器求解。
 
-This model is example 24 from the fifth edition of Model Building in Mathematical Programming by H. Paul Williams 
-on pages 282-284 and 337-340.
+这个模型是H. Paul Williams所著的《数学规划中的模型构建》第五版中的第24个例子，
+见第282-284页和337-340页。
 
-This modeling example is at the advanced level, where we assume that you know Python and the Gurobi Python API 
-and that you have advanced knowledge of building mathematical optimization models. Typically, the objective 
-function and/or constraints of these examples are complex or require advanced features of the Gurobi Python API.
+这个建模示例属于高级水平，我们假设您了解Python和Gurobi Python API，
+并且您具有构建数学优化模型的高级知识。通常，这些示例的目标
+函数和/或约束条件比较复杂，或需要使用Gurobi Python API的高级功能。
 
-## View the notebook
+## 查看笔记本
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/yield_management/yield_management.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/yield_management/yield_management.ipynb)
 
-Note that you need a full Gurobi license to run this notebook.
+请注意，您需要完整的Gurobi许可证才能运行此笔记本。
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证的详细信息或运行笔记本的方法，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
