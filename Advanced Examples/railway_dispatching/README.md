@@ -1,19 +1,16 @@
-# Railway Dispatching
+# 铁路调度
 
-This model is an example of a Railway Dispatching problem formulated as an optimization problem using the Gurobi Python 
-API and solved with the Gurobi Optimizer. The model is based on our [2024 webinar](https://www.youtube.com/watch?v=pjlVY6Toxj0) about railway optimization.
+本模型是使用Gurobi Python API建模并通过Gurobi优化器求解的铁路调度问题示例。该模型基于我们关于铁路优化的[2024年网络研讨会](https://www.youtube.com/watch?v=pjlVY6Toxj0)。
 
-This modeling example is at the advanced level, where we assume that you know Python and the Gurobi Python API and 
-that you have advanced knowledge of building mathematical optimization models. Typically, the objective function and/or constraints of these examples are complex or require advanced features of the Gurobi Python API.
+这是一个高级建模示例，我们假设您已掌握Python和Gurobi Python API，并且具备构建数学优化模型的高级知识。通常，这些示例的目标函数和/或约束条件较为复杂，或需要使用Gurobi Python API的高级功能。
 
+## 查看笔记本
 
-## View the notebook
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/railway_dispatching/railway_dispatching.ipynb)
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/railway_dispatching/railway_dispatching.ipynb)
-
-Note that you need a full Gurobi license to run this notebook.
+请注意，运行此笔记本需要完整的Gurobi许可证。
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可或运行笔记本的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
