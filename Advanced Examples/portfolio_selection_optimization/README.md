@@ -1,16 +1,15 @@
-# Portfolio Selection Optimization
+# 投资组合选择优化
 
-This model is an example of the classic Markowitz portfolio selection optimization model: to allocate investments 
-to minimize risk. This is best suited to a matrix formulation, so we use the Gurobi Python matrix interface. 
-The basic model is fairly simple, so we also solve it parametrically to find the efficient frontier.
+这个模型是经典的 Markowitz 投资组合选择优化模型的一个示例：通过分配投资以最小化风险。这最适合用矩阵形式来表达，
+因此我们使用 Gurobi Python 矩阵接口。基本模型相对简单，我们还通过参数化求解来找到有效边界。
 
 
-## View the notebook
+## 查看 notebook
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/portfolio_selection_optimization/portfolio_selection_optimization.ipynb)
+[Google Colab 链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/portfolio_selection_optimization/portfolio_selection_optimization.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证或运行 notebooks 的详细信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
