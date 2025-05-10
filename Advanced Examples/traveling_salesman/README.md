@@ -1,29 +1,28 @@
-# Traveling Salesman Problem
+# 旅行商问题
 
-The Traveling Salesman Problem (TSP) is one of the most famous combinatorial optimization problems. 
-The TSP goal is to find the shortest possible route that visits each city once and returns to the original city.
-It is classified as an NP-hard problem in the field of combinatorial optimization.
+旅行商问题（TSP）是最著名的组合优化问题之一。
+TSP的目标是找到最短的可能路线，该路线访问每个城市一次并返回原始城市。
+它在组合优化领域被归类为NP难问题。
 
-The continued interest in the TSP can be explained by its success as a general engine of discovery and a 
-steady stream of new applications. Some of the general applications of the TSP are as follows:
-* Scheduling and routing problems.
-* Genome sequencing.
-* Drilling problems.
-* Aiming telescopes and x-rays.
-* Data clustering.
-* Machine scheduling.
+对TSP持续感兴趣可以用它作为发现的通用引擎以及不断涌现的新应用来解释。TSP的一些常见应用如下：
+* 调度和路由问题。
+* 基因组测序。
+* 钻孔问题。
+* 瞄准望远镜和X射线。
+* 数据聚类。
+* 机器调度。
 
-This modeling example is at the advanced level, where we assume that you know Python and the Gurobi Python API and 
-you have advanced knowledge of building mathematical optimization models. Typically, the objective function and/or 
-constraints of these examples are complex or required advanced features of the Gurobi Python API.
+这个建模示例属于高级水平，我们假设您了解Python和Gurobi Python API，
+并且您具有构建数学优化模型的高级知识。通常，这些示例的目标函数和/或
+约束条件很复杂，或者需要Gurobi Python API的高级功能。
 
 
-## View the notebook
+## 查看笔记本
 
-[Google Colab Link](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/traveling_salesman/tsp.ipynb)
+[Google Colab链接](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/traveling_salesman/tsp.ipynb)
 
 
 ----
-For details on licensing or on running the notebooks, see the overview on [Modeling Examples](../)
+有关许可证详情或运行笔记本的信息，请参阅[建模示例](../)概述
 
 © Gurobi Optimization, LLC
