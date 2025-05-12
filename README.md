@@ -106,7 +106,7 @@
   该模型是设施选址问题的高级版本。给定一家公司的一系列部门以及这些部门可能所在的潜在城市，我们希望确定每个部门的“最佳”位置，以实现毛利润最大化。
 - [农场规划（Farm Planning）](./Advanced%20Examples/farm_planning):
   这是一个高级生产规划问题的例子。
-- 指数跟踪（Index Tracking）:
+- [数跟踪（Index Tracking）](./Advanced%20Examples/index_tracking):
   指数跟踪投资组合优化。
 - [丢失行李分配（Lost Luggage Distribution）](./Advanced%20Examples/lost_luggage_distribution):
   这是一个带时间窗的车辆路径问题示例。它涉及帮助一家公司确定将丢失或延误的行李运送给合法所有者所需的最少货车数量，并确定货车对客户的最佳分配。
