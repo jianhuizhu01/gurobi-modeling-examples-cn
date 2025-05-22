@@ -37,27 +37,27 @@
 
 初学者级别的笔记本假设你了解 Python 并且对构建数学优化模型有一些了解。
 
-- [三维井字棋游戏（3D Tic-Tac-Toe）](./Introductory%20Examples/3d_tic_tac_toe):
+- [三维井字棋游戏（3D Tic-Tac-Toe）](./Beginner%20Examples/3d_tic_tac_toe):
   这个示例将向您展示二进制规划模型如何用于捕捉简单的逻辑约束。
-- [信号塔（Cell Tower）](./Introductory%20Examples//cell_tower_coverage):
+- [信号塔（Cell Tower）](./Beginner%20Examples/cell_tower_coverage):
   在这个例子中，你将学习如何定义和解决一个覆盖类型的问题，即如何配置一个信号塔网络，以向最多的人提供信号覆盖。
-- [曲线拟合（Curve Fitting）](./Introductory%20Examples/curve_fitting):
+- [曲线拟合（Curve Fitting）](./Beginner%20Examples/curve_fitting):
   尝试这个 Jupyter Notebook 建模示例，了解如何将函数拟合到一组观测值。
-- [设施选址（Facility Location）](./Introductory%20Examples/facility_location):
+- [设施选址（Facility Location）](./Beginner%20Examples/facility_location):
   在这个示例中，我们将向您展示如何解决设施选址问题，该问题涉及确定为一组超市供应货物所需的仓库数量和位置。
-- [梦幻篮球（Fantasy Basketball）](./Introductory%20Examples/fantasy_basketball):
+- [梦幻篮球（Fantasy Basketball）](./Beginner%20Examples/fantasy_basketball):
   此示例在梦幻篮球中结合了机器学习和优化建模。
-- [食品计划（Food Program）](./Introductory%20Examples//food_program):
+- [食品计划（Food Program）](./Beginner%20Examples/food_program):
   在全球运输网络中运输食品是一项具有挑战性的任务。在本笔记本中，我们将构建一个优化模型，以根据联合国世界粮食计划署的真实数据建立食品供应链。
-- [市场份额分配（Market Sharing）](./Introductory%20Examples//market_sharing):
+- [市场份额分配（Market Sharing）](./Beginner%20Examples/market_sharing):
   在本示例中，我们将向您展示如何解决一个目标规划问题，该问题涉及将零售商分配给公司的两个部门，以优化多个市场份额目标之间的权衡。
-- [营销活动优化（Marketing Campaign Optimization）](./Introductory%20Examples/marketing_campaign_optimization):
+- [营销活动优化（Marketing Campaign Optimization）](./Beginner%20Examples/marketing_campaign_optimization):
   几乎每个行业的公司都在寻求优化其营销活动。在这个Jupyter Notebook中，我们将探讨银行和金融服务行业中常见的营销活动优化问题，该问题涉及确定向单个客户提供哪些产品，以便在满足各种业务约束的同时最大化总预期利润。
-- [海上风力发电（Offshore Wind Farming）](./Introductory%20Examples/offshore_wind_farming):
+- [海上风力发电（Offshore Wind Farming）](./Beginner%20Examples/offshore_wind_farming):
   在这个例子中，我们将学习如何解决海上风力发电问题。该问题的目标是确定应铺设哪些海底电缆以最低成本连接海上风电场电力网络。
-- [供应网络设计1（Supply Network Design 1）](./Introductory%20Examples/supply_network_design):
+- [供应网络设计1（Supply Network Design 1）](./Beginner%20Examples/supply_network_design):
   尝试这个Jupyter Notebook建模示例，学习如何解决经典的供应网络设计问题，该问题涉及找到通过网络的最小成本流。我们将向您展示——给定一组工厂、仓库和客户——如何使用数学优化来确定在最小化运输成本的同时满足客户需求的最佳方法。在第2部分中，我们还确定要打开或关闭哪些仓库以最小化总成本。
-- [Covid-19设施优化（Covid19 Facility Optimization）](./Introductory%20Examples/covid19_facility_location):
+- [Covid-19设施优化（Covid19 Facility Optimization）](./Beginner%20Examples/covid19_facility_location):
   这个COVID-19医疗设施容量优化问题是设施选址（Facility Location）问题的一个变体，向您展示如何确定医疗设施的最佳位置和容量。
 
 
